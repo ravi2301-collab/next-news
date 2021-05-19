@@ -1,0 +1,44 @@
+.main{
+    flex:1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+.employeeOfTheMonth{
+    text-align: center;
+}
+.employeeOfTheMonth img{
+    width: 250px;
+    border-radius: 100%;
+}
+.post{
+    max-width: 500px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+.post img{
+    width: 100%;
+}
+.post h2{
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+.paginator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.paginator div{
+    margin: 25px;
+}
+.paginator .disabled{
+    cursor: not-allowed;
+    color: grey;
+}
+.paginator .active{
+    cursor: pointer;
+}
